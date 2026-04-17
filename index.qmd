@@ -24,7 +24,7 @@ if (!require("pacman")) install.packages("pacman", repos = "http://lib.stat.cmu.
 # install and load required packages
 # pacman should be first package in parentheses and then list others
 pacman::p_load(pacman,tidyverse, magrittr, knitr, forecast, kableExtra,
-               tidyquant, lubridate, ggthemes, RColorBrewer, dygraphs)
+               tidyquant, lubridate, ggthemes, RColorBrewer, dygraphs, renv)
 
 # verify packages
 #p_loaded()
